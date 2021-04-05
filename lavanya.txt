@@ -1,0 +1,45 @@
+test strategy : steps(ITDS)
+1)assess teatability :
+
+operability : 4
+controlabilitu : 5
+observability : 5
+simplycity : 3
+undestandability : 5
+suitability : 5
+stability : 5
+
+
+2)test factors :  
+
+*authorizatio :- integration testing
+*correctness :- integrating testing
+*access control :- system testing
+*reliabilty :- UAT
+*performance :- system testing
+*intigrity :- system testing
+*continutiy of processing :- post UAT
+
+3)assess drivers that would influence testing/approach :-
+*authorization :- integration testing/tester(quality analyst)/validation/blackbox
+*correctness :-  integration testing/tester/verification/blackbox/dynamic
+*access control :- system testing /tester/verification/blackbox
+*reliability :- to what extent we trust/UAT(client/customer)
+*performance :- system/tester
+*intigrity :- system testing/tester
+*continuity of processing :- postUAT/client
+
+
+4)test plan :
+
+*test item :- application name
+*software risk issue :- security,performance
+*features to be tested(user stories) :- register users,manager and member function,admin functions
+*features not to be tested :- new version(which is not a scope)
+*approach :- whitebox,blackbox(it contains code and UI)
+*test deliverables :- source code,test scenario,test plan,test case,test execution report,test report,defect report
+*item pass/fail criteria :- if i find 5 minor bugs,1 major bug,with no critical/show stopper in this case(pass)
+*suspension & resumption criteria :- show stoper in application/non-availabilyty of resource/when this is resolved
+*resposibility :- project manager,test lead,tester,customer
+*staffing and testing needs :- testing needs
+*schedule :- 2weeks
